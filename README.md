@@ -1,2 +1,2 @@
 # NiwanPathway
-This is the repo for Filecoin Plus NiwanDao Allocators  
+This is the Datacap Distribution bookkeeping repo of Filecoin Plus NiwanDao Allocators that allows for auditing of distribution for compliance. 
