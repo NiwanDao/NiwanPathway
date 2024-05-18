@@ -17,7 +17,7 @@
     "Describe the data being stored onto Filecoin": "Those would be the data involved in an AI-assisted driving system include: Sensor Data： information collected by cameras, radar, LiDAR (Light Detection and Ranging), and ultrasonic sensors, capturing environmental factors such as road conditions, vehicles, and pedestrians. Vehicle Data: status information such as speed, steering angle, acceleration, braking, etc., which can be gathered through onboard sensors or vehicle interfaces.Also, the computer vision model data.",
     "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
     "How do you plan to prepare the dataset": "I will split and pack the source file using our program leverages lots to generate the CAR file",
-    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "link:",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "link: http://182.136.78.70:8088/CH03_002.bag.tar.gz",
     "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
     "What is the expected retrieval frequency for this data": "Sporadic",
     "For how long do you plan to keep this dataset stored on Filecoin": "1.5 to 2 years",
