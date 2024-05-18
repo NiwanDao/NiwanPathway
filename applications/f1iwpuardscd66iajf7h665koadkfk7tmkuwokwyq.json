@@ -35,11 +35,11 @@
     "Weekly Allocation": "800TiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
+    "State": "Granted",
     "Validated At": "2024-05-18 02:41:55.150679458 UTC",
     "Validated By": "NiwanDao",
     "Active": true,
-    "Updated At": "2024-05-18 02:41:55.150684853 UTC",
+    "Updated At": "2024-05-18 02:49:29.746418345 UTC",
     "Active Request ID": "ed9b2c8f-a7a2-4146-bba6-dd2fe594885d",
     "On Chain Address": "f1iwpuardscd66iajf7h665koadkfk7tmkuwokwyq",
     "Multisig Address": "false",
@@ -51,9 +51,16 @@
       "Request Type": "First",
       "Created At": "2024-05-18 02:41:55.150686941 UTC",
       "Updated At": "2024-05-18 02:41:55.150688357 UTC",
-      "Active": true,
+      "Active": false,
       "Allocation Amount": "1PiB",
-      "Signers": []
+      "Signers": [
+        {
+          "Github Username": "NiwanDao",
+          "Signing Address": "f1a2lia2cwwekeubwo4nppt4v4vebxs2frozarz3q",
+          "Created At": "2024-05-18 02:51:01.671000000 UTC",
+          "Message CID": "bafy2bzacechgpxul47ubj7scdojrkraxhw6xczqpezdx4swjtyvwfrki6y4qa"
+        }
+      ]
     }
   ]
 }
