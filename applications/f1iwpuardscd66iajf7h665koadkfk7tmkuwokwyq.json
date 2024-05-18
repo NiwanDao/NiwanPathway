@@ -1,0 +1,49 @@
+{
+  "Version": "1.3",
+  "ID": "f1iwpuardscd66iajf7h665koadkfk7tmkuwokwyq",
+  "Issue Number": "10",
+  "Client": {
+    "Name": "The High-Resolution Rapid Refresh (HRRR)",
+    "Region": "United States",
+    "Industry": "Government",
+    "Website": "https://rapidrefresh.noaa.gov/hrrr/",
+    "Social Media": "https://rapidrefresh.noaa.gov/hrrr/",
+    "Social Media Type": "Slack",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "Earth System Research Laboratories provide a comprehensive understanding of the Earth system that effectively informs society about critical environmental issues.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "The HRRR is a NOAA real-time 3-km resolution, hourly updated, cloud-resolving, convection-allowing atmospheric model, initialized by 3km grids with 3km radar assimilation. Radar data is assimilated in the HRRR every 15 min over a 1-h period adding further detail to that provided by the hourly data assimilation from the 13km radar-enhanced Rapid Refresh .",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "I will use singularity to prepare car file after downloading the data from AWS.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://registry.opendata.aws/noaa-hrrr-pds/",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
+    "What is the expected retrieval frequency for this data": "Daily",
+    "For how long do you plan to keep this dataset stored on Filecoin": "1.5 to 2 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server, Shipping hard drives",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "SP ID Location\r\nHainan future cloud Technology Co., f02933536, Ningxia\r\nHainan future cloud Technology Co., f02933563 ,Ningxia\r\nSiwei Technology Co.,Technology Co.,f03083319, Chengdu\r\nYouyun Tech,tobecreated, Hongkong \r\nqitian yun ,tobecreated, nanjing",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "10",
+    "Single Size Dataset": "2",
+    "Replicas": 5,
+    "Weekly Allocation": "800T"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2024-05-18 01:45:58.756904194 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f1iwpuardscd66iajf7h665koadkfk7tmkuwokwyq",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": []
+}
