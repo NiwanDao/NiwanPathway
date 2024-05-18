@@ -22,17 +22,17 @@
     "What is the expected retrieval frequency for this data": "Sporadic",
     "For how long do you plan to keep this dataset stored on Filecoin": "1.5 to 2 years",
     "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China",
-    "How will you be distributing your data to storage providers": "HTTP or FTP server, Shipping hard drives",
-    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "SP ID Location\r\nHainan future cloud Technology Co., f02933536, Ningxia\r\nHainan future cloud Technology Co., f02933563 ,Ningxia\r\nSiwei Technology Co.,Technology Co.,f03083319, Chengdu\r\nYouyun Tech,tobecreated, Hongkong \r\nqitian yun ,tobecreated, nanjing.",
+    "How will you be distributing your data to storage providers": "Cloud storage (i.e. S3), Shipping hard drives",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "Hongkong: 2 copies. SP not decided yet\r\nSingapore: will update the SP later on.\r\nChengdu: f03083319",
     "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
   },
   "Datacap": {
     "Type": "ldn-v3",
     "Data Type": "Slingshot",
-    "Total Requested Amount": "10P",
-    "Single Size Dataset": "1P",
+    "Total Requested Amount": "10PiB",
+    "Single Size Dataset": "1PiB",
     "Replicas": 10,
-    "Weekly Allocation": "500T"
+    "Weekly Allocation": "500TiB"
   },
   "Lifecycle": {
     "State": "Submitted",
